@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+}
+
+/* Resto de estilos como antes */
+
+
+/* Estilos del formulario de suscripción */
+.form-container {
+  background-color: rgba(123, 31, 162, 0.9); /* Púrpura con transparencia */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Justificar a la izquierda */
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente */
+  color: #fff;
+}
+
+.form-container .floating-label {
+  position: relative;
+}
+
+.form-container .floating-label input {
+  padding-top: 20px;
+}
+
+.plan-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan,
+.selected-plan {
+  flex: 1;
+  background-color: #4a148c; /* Púrpura oscuro */
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+  margin-right: 10px; /* Agrega margen a la derecha para separar los botones */
+}
+
+.selected-plan {
+  background-color: #6200ea; /* Púrpura más claro para plan seleccionado */
+}
+
+.subscribe-button {
+  background-color: #4a148c; /* Púrpura oscuro */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+  margin-top: 20px; /* Agrega margen superior para separar el botón */
+}
+
+.subscribe-button:hover {
+  background-color: #6200ea; /* Púrpura más claro al pasar el mouse */
+}
+
+/* Añade aquí tus estilos personalizados si es necesario */
